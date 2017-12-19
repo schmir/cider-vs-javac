@@ -115,3 +115,8 @@ cider-vs-javac.core=>
 ```
 
 Please note the compiler giving the right error message ("cannot find symbol xxx").
+
+## Links
+
+Reported as https://github.com/ztellman/virgil/issues/18 and 
+https://github.com/clojure-emacs/cider-nrepl/issues/463
