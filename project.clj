@@ -3,10 +3,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [virgil "0.1.7"]]
+                 [cider/cider-nrepl "0.16.0-SNAPSHOT"]]
   :repl-options {:init-ns cider-vs-javac.core}
-  :plugins [[lein-virgil "0.1.7"]
-            [cider/cider-nrepl "0.16.0-SNAPSHOT"]]
-  ;; :injections [(println "INJECT: require cider.nrepl.middleware.util.java")
-  ;;              (require 'cider.nrepl.middleware.util.java)]
-  :java-source-paths ["java-src"])
+  ;;:resource-paths ["/usr/lib/jvm/oracle-java8-jdk-amd64/lib/tools.jar"]
+  )
